@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong", "Pong\Pong.csproj", "{762BE35B-E2FF-4CA8-8501-53F20A5185EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yasai", "..\Yasai\Yasai\Yasai.csproj", "{11A1FB92-6C1B-438A-8192-D841C51BC6B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{762BE35B-E2FF-4CA8-8501-53F20A5185EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762BE35B-E2FF-4CA8-8501-53F20A5185EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762BE35B-E2FF-4CA8-8501-53F20A5185EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762BE35B-E2FF-4CA8-8501-53F20A5185EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A1FB92-6C1B-438A-8192-D841C51BC6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A1FB92-6C1B-438A-8192-D841C51BC6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A1FB92-6C1B-438A-8192-D841C51BC6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A1FB92-6C1B-438A-8192-D841C51BC6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
