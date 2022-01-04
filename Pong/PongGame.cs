@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using OpenTK.Mathematics;
+using OpenTK.Windowing.Common;
 using Pong.Components;
 using Yasai;
 using Yasai.Graphics;
@@ -22,6 +23,7 @@ namespace Pong
         public PongGame()
         {
             State = new GameState();
+            Window.CursorVisible = false;
         }
             
         public override void Load(DependencyContainer dependencies)

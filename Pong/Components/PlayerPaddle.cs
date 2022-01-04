@@ -8,7 +8,13 @@ namespace Pong.Components
         private float speed = 10f;
 
         private Direction direction;
-        
+
+        public override void GlobalMouseMove(MouseMoveEventArgs args)
+        {
+            base.GlobalMouseMove(args);
+            Y = args.Y - Height / 2;
+        }
+
         public override void KeyDown(KeyboardKeyEventArgs args)
         {
             base.KeyDown(args);
@@ -41,7 +47,7 @@ namespace Pong.Components
             base.Update(args);
             Y = Clamp(Y + (float) direction * speed, 768 - Height, 0);
         }
-
+        
         float Clamp(float x, float max, float min)
         {
             if (x >= max)
